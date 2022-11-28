@@ -141,6 +141,18 @@ const updateArticle = (req, res) => {
     }
   );
 };
+
+const upFiles =(req, res)=>{
+
+    //config multer
+
+    
+
+
+    return res.status(200).json({
+        status: "success"
+    })
+}
 module.exports = {
   test,
   createArticle,
@@ -148,4 +160,5 @@ module.exports = {
   getOneArticle,
   deleteArticle,
   updateArticle,
+  upFiles
 };
